@@ -1,0 +1,75 @@
+commerce:
+  gateways:
+    fb31884e-93ca-4c52-acbe-0e70f5189a11:
+      handle: dummy
+      isFrontendEnabled: true
+      name: Dummy
+      paymentType: purchase
+      sortOrder: null
+      type: craft\commerce\gateways\Dummy
+  orderStatuses:
+    848867d7-12f3-47d4-ba46-10031d51026d:
+      color: blue
+      default: false
+      handle: shipped
+      name: Shipped
+      sortOrder: null
+    8492ea7a-f6a3-4ccf-825b-80e7690a75c2:
+      color: green
+      default: true
+      handle: new
+      name: New
+      sortOrder: null
+  productTypes:
+    3ac51e77-a5b2-4288-b834-a5d41336feb8:
+      descriptionFormat: ''
+      handle: clothing
+      hasDimensions: true
+      hasVariantTitleField: false
+      hasVariants: false
+      name: Clothing
+      siteSettings:
+        5fe5e661-b07a-4880-b9f2-e123ff4ab758:
+          hasUrls: true
+          template: shop/products/_product
+          uriFormat: 'shop/products/{slug}'
+      skuFormat: ''
+      titleFormat: '{product.title}'
+dateModified: 1548687794
+email:
+  fromEmail: test@example.com
+  fromName: 'Craft Commerce Search Issue'
+  transportType: craft\mail\transportadapters\Sendmail
+fieldGroups:
+  27401402-c455-4167-aa68-d4957d561113:
+    name: Common
+plugins:
+  commerce:
+    edition: lite
+    enabled: true
+    schemaVersion: 2.0.57
+siteGroups:
+  9f3f64a5-fd1c-4d9a-86fc-5db57dae119a:
+    name: 'Craft Commerce Search Issue'
+sites:
+  5fe5e661-b07a-4880-b9f2-e123ff4ab758:
+    baseUrl: '@web'
+    handle: default
+    hasUrls: true
+    language: en-US
+    name: 'Craft Commerce Search Issue'
+    primary: true
+    siteGroup: 9f3f64a5-fd1c-4d9a-86fc-5db57dae119a
+    sortOrder: 1
+system:
+  edition: solo
+  live: true
+  name: 'Craft Commerce Search Issue'
+  schemaVersion: 3.1.23
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
