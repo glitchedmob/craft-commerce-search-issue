@@ -1,6 +1,6 @@
 # Craft Commerce Search Issue
 
-###Admin credentials
+### Admin credentials
 
 Username: `admin`
 
